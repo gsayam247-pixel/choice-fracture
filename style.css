@@ -1,0 +1,41 @@
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game {
+    width: 600px;
+    border: 1px solid #333;
+    padding: 20px;
+    background: #111;
+}
+
+#title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#text {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #1a1a1a;
+    color: #fff;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
